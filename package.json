@@ -1,0 +1,9 @@
+{
+  "name": "vslinko.com",
+  "version": "0.1.0",
+  "dependencies": {
+    "hapi": "~8.1",
+    "swig": "~1.4"
+  },
+  "private": true
+}
