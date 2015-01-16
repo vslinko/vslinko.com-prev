@@ -255,3 +255,70 @@
     font-weight: bold;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 960px) {
+  .MainPage-Name {
+    font-size: 2em;
+
+    margin-top: 75px;
+    margin-bottom: 20px;
+  }
+
+  .MainPage-Position {
+    font-size: 1.5em;
+
+    margin-top: 20px;
+  }
+
+  .MainPage-Link {
+    font-size: 1.5em;
+  }
+
+  .MainPage-Contacts {
+    font-size: 1em;
+
+    bottom: 30px;
+  }
+
+  .Resume {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .Resume-Summary {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .Resume-Block, .Resume-Block-Header, .Resume-Block-Content {
+    display: block;
+  }
+
+  .Resume-Block-Header {
+    width: 100%;
+    padding: 0;
+
+    text-align: center;
+
+    border: none;
+  }
+
+  .Resume-Block-Content {
+    padding: 0;
+  }
+
+  #profiles .Resume-Block-Content {
+    text-align: center;
+  }
+
+  .ResumePoint {
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  .ResumePoint-Title {
+    padding-right: 20px;
+
+    text-align: right;
+  }
+}
